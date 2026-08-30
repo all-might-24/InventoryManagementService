@@ -21,4 +21,7 @@ public class Inventory extends BaseEntity {
 
     @Column(nullable = false)
     private Integer reservedQuantity = 0;
+
+    @Column(nullable = false)
+    private Integer soldQuantity = 0;
 }

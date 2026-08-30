@@ -10,4 +10,5 @@ public class InventoryResponseDto {
     private Long productId;
     private Integer availableQuantity;
     private Integer reservedQuantity;
+    private Integer soldQuantity;
 }
